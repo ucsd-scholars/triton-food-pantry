@@ -1,4 +1,4 @@
-package scholars.tritonfoodpantry;
+package ucsd_scholars.tritonfoodpantry;
 
 import org.junit.Test;
 

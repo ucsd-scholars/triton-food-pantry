@@ -1,4 +1,4 @@
-package scholars.tritonfoodpantry;
+package ucsd_scholars.tritonfoodpantry;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("scholars.tritonfoodpantry", appContext.getPackageName());
+        assertEquals("ucsd_scholars.tritonfoodpantry", appContext.getPackageName());
     }
 }
