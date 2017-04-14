@@ -9,5 +9,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        firebaseWrapper db = new firebaseWrapper();
+        db.addMessage("Database!");
+        db.readMsg();
+
     }
 }
